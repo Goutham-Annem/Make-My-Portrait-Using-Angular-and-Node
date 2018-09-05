@@ -1,12 +1,14 @@
-import { Dish } from './dish';
+ import { Dish } from './dish';
 
 export const DISHES: Dish[] = [
     {
+        id:0,
         name: 'Family Portrait',
         image: '/assets/images/uthappizza.jpg',
         category: 'mains',
         label: 'Hot',
         price: '4.99',
+        featured:true,
         // tslint:disable-next-line:max-line-length
         description: "Family is one of nature's masterpieces. It means putting your arms around each other and being there.",
         comments: [
@@ -43,11 +45,13 @@ export const DISHES: Dish[] = [
         ]
     },
     {
+        id:1,
         name: 'Friends',
         image: '/assets/images/zucchipakoda.jpg',
         category: 'appetizer',
         label: '',
         price: '1.99',
+        featured:false,
         description: 'Friends are the family we get to choose ourselves. There are friends, there is family and there are friends that become family',
         comments: [
             {
@@ -83,11 +87,13 @@ export const DISHES: Dish[] = [
         ]
     },
     {
+        id:2,
         name: 'Couple & Valentine',
         image: '/assets/images/vadonut.jpg',
         category: 'appetizer',
         label: 'New',
         price: '1.99',
+        featured:false,
         description: "Love is when the other person's happiness is more important than your own.Being deeply loved by someone gives you the strength, while loving someone deeply gives you courage",
         comments: [
             {
@@ -123,11 +129,13 @@ export const DISHES: Dish[] = [
         ]
     },
     {
+        id:3,
         name: 'Famous Personalities & Icons',
         image: '/assets/images/elaicheesecake.jpg',
         category: 'dessert',
         label: '',
         price: '2.99',
+        featured:false,
         description: "A day without a laughter is a day wasted. Two things define your personality, the way you manage things when you have nothing, and the way you behave when you have everything.",
         comments: [
             {
