@@ -10,7 +10,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { DishService } from './services/dish.service';
 import { PromotionService } from './services/promotion.service';
 import { LeaderService } from './services/leader.service';
-
+import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 import { AppComponent } from './app.component';
 
 import 'hammerjs';
@@ -61,6 +61,7 @@ import { ReactiveFormsModule } from '@angular/forms';
     MatSelectModule,
     MatSlideToggleModule,
     ReactiveFormsModule,
+    MatProgressSpinnerModule,
     AppRoutingModule
   ],
   providers: [DishService, PromotionService, LeaderService],
